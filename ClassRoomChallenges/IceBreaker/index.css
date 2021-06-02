@@ -1,0 +1,63 @@
+* {
+    background-color: goldenrod;
+    font-family: Montserrat, Lato, sans-serif;
+}
+
+#header {
+    align-items: center;
+    display: flex;
+    height: 450px;
+    justify-content: center;
+}
+
+#header h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    padding: 15px;
+}
+
+.container > div:nth-child(1) {
+    flex: 1;
+}
+.container > div:nth-child(2) {
+    flex: 3;
+}
+
+section > div > h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+}
+
+.container > div > p {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+}
+
+img.imageCrop {
+    max-width: 250px;
+    /* position: relative;
+    overflow: hidden; */
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+/* img {
+    display:inline;
+    margin: 0 auto;
+} */
+
+img:hover {
+    cursor:grabbing;
+}
+
+#instructionList {
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+    list-style-type:none;
+}
