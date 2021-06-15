@@ -1,0 +1,16 @@
+.coffee {
+    margin: 20px;
+}
+
+.coffee-title {
+    font-family: var(--font-one);
+    text-align: center;
+}
+
+.card-img-top {
+    border-radius: 50%;
+    height: 235px;
+    width: 235px;
+    margin: auto;
+    padding-top: 15px;
+}

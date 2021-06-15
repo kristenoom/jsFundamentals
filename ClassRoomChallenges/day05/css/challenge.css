@@ -1,0 +1,16 @@
+.donations {
+    margin: 20px;
+}
+
+.donations-title {
+    font-family: var(--font-one);
+    text-align: center;
+}
+
+.donations-para {
+    text-align: center;
+}
+
+.progress {
+    color: black;
+}
