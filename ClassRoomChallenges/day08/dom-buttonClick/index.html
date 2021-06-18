@@ -24,25 +24,25 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <h1>Team 1</h1>
+          <h1 class='teamName'>Team 1</h1>
           <p>Total Points: <span id='team1points'>10</span></p>
           <div class="d-grid gap-2">
-            <button class="btn btn-outline-success" type="button" onclick="team1Add()">
+            <button class="btn btn-outline-success" type="button" onclick="calculatePoints('team1', 1)">
               Add Team 1 Button
             </button>
-            <button class="btn btn-outline-danger" type="button" onclick="team1Sub()">
+            <button class="btn btn-outline-danger" type="button" onclick="calculatePoints('team1', -1)">
               Subtract Team 1 Button
             </button>
           </div>
         </div>
         <div class="col">
-          <h1>Team 2</h1>
+          <h1 class='teamName'>Team 2</h1>
           <p>Total Points: <span id='team2points'>10</span></p>
           <div class="d-grid gap-2">
-            <button class="btn btn-outline-success" type="button" onclick="team2Add()">
+            <button class="btn btn-outline-success" type="button" onclick="calculatePoints('team2', 1)">
               Add Team 2 Button
             </button>
-            <button class="btn btn-outline-danger" type="button" onclick="team2Sub()">
+            <button class="btn btn-outline-danger" type="button" onclick="calculatePoints('team2', -1)">
               Subtract Team 2 Button
             </button>
           </div>

@@ -1,0 +1,25 @@
+4.12 DOM OVERVIEW
+TOPICS WE ARE GOING TO COVER
+- DOM explained
+- selecting and styling HTML elements via JavaScript
+- changing the content of HTML elements via JavaScript
+- reacting to DOM events
+- adding and removing HTML elements
+
+ASSUMPTIONS
+This documentation assumes that:
+
+- You are familiar with folders and files. You are able to create folders and files and navigate between them.
+- You are familiar with basic HTML, CSS, and JavaScript. We do not assume you are an expert, but you should be able to build a simple website.
+- You have Visual Studio Code (Links to an external site.) installed. You may use a different text editor, but VS Code is highly recommended for JavaScript development. This walk through assumes you are using VS Code.
+ 
+4.13 DOM EXPLAINED
+You may have noticed there is one really big thing missing in your coding education so far... we've learned about loops, arrays, objects, variables, and conditionals... we've built a basic HTML and CSS page... and we've written JavaScript that runs in the console... but how do we make it happen on command? What if we want an HTML button to control when a JavaScript function runs? What if we want JavaScript to change some CSS styling?
+
+DOM stands for Document Object Model, and it is what allows our JavaScript to interact with the HTML and CSS of our page.
+
+If you want to get technical, the abbreviation "DOM" gives us a hint of what it actually is, on the most basic level. It's an Object Model - it's the entire HTML document (or "page") represented as an object. If you can remember objects, objects have properties and methods (functions) and so does the DOM! Since the DOM is the entire HTML document represented as an object, the properties and methods deal with that HTML document.
+
+The overall DOM consists of the entire page, including all of the paragraph tags, input fields, images, div tags, etc. on the page. The properties of those tags are part of the properties of the DOM. Want to change the style of a paragraph tag? The "style" is a property of that paragraph tag, which is part of the DOM. The DOM also gives us "methods" (remember, "functions" are called "methods" when they are part of an object) to manipulate things too!
+
+Enough conceptual talk, it's a difficult concept to grasp at first, especially when you haven't seen it in action! Soooo..... Let's look at a few examples!

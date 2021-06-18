@@ -12,5 +12,37 @@
     3. Each image must be centered
 */
 
+function getImage() {
+    let apiURL = `https://rickandmortyapi.com/api/character`;
+    fetch(apiURL)
+        .then((response) => response.json())
+        .then((result) => console.log(result.results[i].image))
+    //    .then((result) => displayImage1(result.results[i].image))
+    //    .then((result) => displayImage2(result.results[i].image))
+        .catch((error) => console.log(error));
+    console.log('hey there from getImage() function');
+}
 
-fetch('https://rickandmortyapi.com/api/character')
+getImage();
+
+function displayImage1(img1) {
+    console.log(img1);
+    let displayImage1 = document.getElementById('imageOne');
+    displayImage1.innerText = '';
+    let imgSrc1 = document.createElement('p');
+    imgSrc1.innerText = img1;
+    displayImage1.appendChild(imgSrc1);
+}
+function displayImage2(img2) {
+    console.log(img2);
+    let displayImage2 = document.getElementById('imageTwo');
+    displayImage2.innerText = '';
+    let imgSrc2 = document.createElement('p');
+    imgSrc2.innerText = img1;
+    displayImage2.appendChild(imgSrc2);
+}
+
+/*function handleClick() {
+    //alert('hey');
+    getJoke();
+}*/
